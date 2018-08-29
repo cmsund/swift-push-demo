@@ -1,0 +1,32 @@
+/* Login Screen */
+"login" = "login"; // Login Screen Name
+"Login" = "Login"; // Login Button Title
+"Email" = "Email"; // Email Text Field Placeholder
+"Trace ID (optional)" = "Trace ID (optional)"; // Trace Id Text Field Placeholder
+"user_login" = "user_login"; // User Login Event Name
+
+/* Action Screen */
+
+// Menu Buttons
+"Kill Trace" = "Kill Trace"; // Kill Trace Menu Button Title
+"Reset Push" = "Reset Push"; // Reset Push Menu Button Title
+"Trigger Push" = "Trigger Push"; // Trigger Push Menu Button Title
+
+// UI Button Titles
+"Add To Cart" = "Add To Cart"; // Button 1 Title
+"Purchase" = "Purchase"; // Button 2 Title
+"Reset Trace" = "Reset Trace"; // Button 3 Title
+"Call To Action 1" = "Call To Action 1"; // Button 4 Title
+"Call To Action 2" = "Call To Action 2"; // Button 5 Title
+"Call To Action 3" = "Call To Action 3"; // Button 6 Title
+
+// Tealium Event Names
+"cart_add" = "cart_add"; // Cart Add Event Name
+"order_confirm" = "order_confirm"; // Purchase / Order Confirmation event name
+"reset" = "reset"; // Reset Trace Event Name
+"" = ""; // Add Event Name for Button 4
+"" = ""; // Add Event Name for Button 5
+"" = ""; // Add Event Name for Button 6
+"trigger_push_message" = "trigger_push_message"; // Trigger Push Message Event Name
+"reset_push" = "reset_push"; // Reset Push Event Name
+
