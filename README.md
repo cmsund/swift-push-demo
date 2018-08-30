@@ -109,15 +109,15 @@ The push messages are triggered in three different areas:
 
 * After logging in with an email and trace id, tap "Add To Cart" then tap "Kill Trace" from the menu. This one will only work if you are using your own Tealium account/profile and can use Trace in the UDH.
 
-![](http://christinasund.com/images/cart_abandon.png)
+![](http://christinasund.com/images/_cart_abandon.png)
 
 * After logging in with an email, tap "Trigger Push" from the menu. In order to do this repeatedly, you must tap "Reset Push" before selecting "Trigger Push" again. This one will work out of the box.
 
-![](http://christinasund.com/images/trigger_push.png)
+![](http://christinasund.com/images/_trigger_push.png)
 
 * Put the app into the background by pressing the "Home" button on your device. This one will work out of the box.
 
-![](http://christinasund.com/images/background.png)
+![](http://christinasund.com/images/_background.png)
 
 ###  <a name="advanced-config" style="color:black">Advanced Configuration</a>
 
