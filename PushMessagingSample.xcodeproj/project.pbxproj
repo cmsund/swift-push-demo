@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CD80042173050212C65F4669 /* Pods_PushMessagingSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C7CE17666CE5B3FA80BA0 /* Pods_PushMessagingSample.framework */; };
 		CF102278210974D200579680 /* teal_dots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF102277210974D200579680 /* teal_dots.jpg */; };
-		CF102279210A987A00579680 /* teal_dots_lines_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF102276210974C100579680 /* teal_dots_lines_02.mp4 */; };
 		CF10227C2110104800579680 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10227B2110104800579680 /* MenuManager.swift */; };
 		CF10227E211297E100579680 /* UIColor+Tealium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10227D211297E100579680 /* UIColor+Tealium.swift */; };
 		CF1022802112BA2900579680 /* Array+AsyncTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10227F2112BA2900579680 /* Array+AsyncTasks.swift */; };
@@ -27,6 +26,7 @@
 		CF4E155B1FE8BC0500C32C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4E15591FE8BC0500C32C9D /* LaunchScreen.storyboard */; };
 		CF4E15631FE8C22B00C32C9D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF4E15621FE8C22B00C32C9D /* GoogleService-Info.plist */; };
 		CF639D38212529F4008DEEFD /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF639D37212529F4008DEEFD /* String+Localized.swift */; };
+		CF6FEB752137680600D6EFCC /* teal_dots_lines_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF6FEB742137680600D6EFCC /* teal_dots_lines_02.mp4 */; };
 		CF706D38201FE24000AEACBE /* TealiumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF706D37201FE24000AEACBE /* TealiumHelper.swift */; };
 		CF706D3B201FF2CC00AEACBE /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF706D3A201FF2CC00AEACBE /* ActionViewController.swift */; };
 		CF85C79D2109715C006E54E2 /* BackgroundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF85C79C2109715C006E54E2 /* BackgroundManager.swift */; };
@@ -43,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		AE9919330BBD23F420A41D05 /* Pods-PushMessagingSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushMessagingSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushMessagingSample/Pods-PushMessagingSample.debug.xcconfig"; sourceTree = "<group>"; };
-		CF102276210974C100579680 /* teal_dots_lines_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = teal_dots_lines_02.mp4; sourceTree = "<group>"; };
 		CF102277210974D200579680 /* teal_dots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teal_dots.jpg; sourceTree = "<group>"; };
 		CF10227B2110104800579680 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		CF10227D211297E100579680 /* UIColor+Tealium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Tealium.swift"; sourceTree = "<group>"; };
@@ -65,6 +64,7 @@
 		CF4E15641FE8C2C600C32C9D /* PushMessagingSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PushMessagingSample.entitlements; sourceTree = "<group>"; };
 		CF639D152121ECA4008DEEFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		CF639D37212529F4008DEEFD /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		CF6FEB742137680600D6EFCC /* teal_dots_lines_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = teal_dots_lines_02.mp4; sourceTree = "<group>"; };
 		CF706D37201FE24000AEACBE /* TealiumHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TealiumHelper.swift; sourceTree = "<group>"; };
 		CF706D3A201FF2CC00AEACBE /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		CF85C79C2109715C006E54E2 /* BackgroundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundManager.swift; sourceTree = "<group>"; };
@@ -105,19 +105,11 @@
 		CF1022732109748600579680 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				CF6FEB732137680600D6EFCC /* Videos */,
 				CF1022832112C1B200579680 /* Audio */,
 				CF102275210974AE00579680 /* Graphics */,
-				CF102274210974A500579680 /* Videos */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		CF102274210974A500579680 /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				CF102276210974C100579680 /* teal_dots_lines_02.mp4 */,
-			);
-			path = Videos;
 			sourceTree = "<group>";
 		};
 		CF102275210974AE00579680 /* Graphics */ = {
@@ -183,6 +175,14 @@
 				CF10228721177B9700579680 /* Persistence.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		CF6FEB732137680600D6EFCC /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				CF6FEB742137680600D6EFCC /* teal_dots_lines_02.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 		CF706D39201FF29B00AEACBE /* View Controllers */ = {
@@ -325,11 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF1022842112C1C100579680 /* Hero.aiff in Resources */,
-				CF102279210A987A00579680 /* teal_dots_lines_02.mp4 in Resources */,
 				CF4E15631FE8C22B00C32C9D /* GoogleService-Info.plist in Resources */,
 				CF4E155B1FE8BC0500C32C9D /* LaunchScreen.storyboard in Resources */,
 				CF4E15581FE8BC0500C32C9D /* Assets.xcassets in Resources */,
 				CF4E15561FE8BC0500C32C9D /* Main.storyboard in Resources */,
+				CF6FEB752137680600D6EFCC /* teal_dots_lines_02.mp4 in Resources */,
 				CF102278210974D200579680 /* teal_dots.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,13 +5,15 @@
 
 This demo app will allow you to demo push messaging using the Tealium SDK and the Firebase Cloud Messaging connector. You can also use this app to demo generic use cases and tracking clicks/views with the Tealium SDK.
 
+Tealium Employee? Check here for even more setup/configuration options.
+
 ## Installing / Getting started
 
 A quick introduction of the minimal setup you need to get the push messaging app up &
 running.
 
 ```shell
-git clone https://github.com/cmsund/pushdemo.git
+git clone https://github.com/cmsund/swift-push-demo.git
 ```
 
 * Connect your iPhone
@@ -34,6 +36,8 @@ static let tealiumEnvironment = "environment"
 static let tealiumDatasource = "datasource key"
 }
 ```
+
+See the [advanced configuration steps here](#advanced-config).
 
 Build and run.
 
@@ -101,21 +105,21 @@ Adding localization will allow you to easily convert the strings to your local l
 
 ### Default Push Messaging Behavior
 
-If keeping the default account/profile, the push messages are triggered in three different areas:
+The push messages are triggered in three different areas:
 
-* After logging in with an email and trace id, tap "Add To Cart" then tap "Kill Trace" from the menu
+* After logging in with an email and trace id, tap "Add To Cart" then tap "Kill Trace" from the menu. This one will only work if you are using your own Tealium account/profile and can use Trace in the UDH.
 
 ![](http://christinasund.com/images/cart_abandon.png)
 
-* After logging in with an email, tap "Trigger Push" from the menu. In order to do this repeatedly, you must tap "Reset Push" before selecting "Trigger Push" again
+* After logging in with an email, tap "Trigger Push" from the menu. In order to do this repeatedly, you must tap "Reset Push" before selecting "Trigger Push" again. This one will work out of the box.
 
 ![](http://christinasund.com/images/trigger_push.png)
 
-* Put the app into the background by pressing the "Home" button on your device
+* Put the app into the background by pressing the "Home" button on your device. This one will work out of the box.
 
 ![](http://christinasund.com/images/background.png)
 
-### Advanced Configuration
+###  <a name="advanced-config" style="color:black">Advanced Configuration</a>
 
 The above examples are a result of the Firebase Cloud Messaging connector that is already configured in the default account/profile. In order to configure your own push message using the FCM connector, please refer to this article: [Firebase Cloud Messaging Connector Setup Guide](https://community.tealiumiq.com/t5/Universal-Data-Hub/Firebase-Cloud-Messaging-Connector-Setup-Guide/ta-p/20269). Be sure to obtain a server key by signing up for a Firebase account and following the instructions [here](https://firebase.google.com/docs/cloud-messaging/ios/client). _You will need to add your own GoogleService-Info.pist to the Keys folder within the PushMessagingSample project._
 
