@@ -5,7 +5,7 @@
 
 This demo app will allow you to demo push messaging using the Tealium SDK and the Firebase Cloud Messaging connector. You can also use this app to demo generic use cases and tracking clicks/views with the Tealium SDK.
 
-Tealium Employee? Check here for even more setup/configuration options.
+Tealium Employee? [Check here](https://community.tealiumiq.com/t5/Employee-Documentation/Push-Notification-Demo-iOS-App/ta-p/25336) for even more setup/configuration options.
 
 ## Installing / Getting started
 
